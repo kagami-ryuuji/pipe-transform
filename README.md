@@ -8,7 +8,8 @@ Pipe transform uses syntax of list comprehension:
 [pipe||Arg, ...]
 ```
 
-Arg (first element) is passed as is, the rest are transformed into function calls
+Arg (first element) is passed as is, the rest are transformed into function calls.
+
 Arg and every call result become first argument of the next call:
 
 ```[pipe||x, fn(y)]        => fn(x, y)```
