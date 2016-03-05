@@ -19,8 +19,8 @@ Functions are called from left to right
 
 ## Supported calls
 
-* f   - local function
-* m:f - external function
+* `f`   - local function
+* `m:f` - external function
 
 ## Example
 
