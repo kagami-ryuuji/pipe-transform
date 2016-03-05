@@ -2,6 +2,8 @@
 
 ## Usage
 
+Pipe transform uses syntax of list comprehension:
+
 ```erlang
 [pipe||Arg, ...]
 ```
@@ -9,7 +11,7 @@
 
 ```erlang
 -module(foo).
--compile({parse_transform, pipe}).
+-compile({parse_transform, pipe_transform}).
 
 -export([f/0]).
 
