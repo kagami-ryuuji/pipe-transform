@@ -30,9 +30,9 @@ Functions are called from left to right
 
 -export([f/0]).
 
-f()  -> [pipe||1, f, f(2)].
+f()  -> [pipe||1, inc, mul(2)].
 
-f(X) -> X + 1.
+inc(X) -> X + 1.
 
-f(X, K) -> X * K.
+mul(X, K) -> X * K.
 ```
