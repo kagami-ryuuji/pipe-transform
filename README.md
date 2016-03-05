@@ -17,6 +17,11 @@ Arg and every call result become first argument of the next call:
 
 Functions are called from left to right
 
+## Supported calls
+
+* f   - local function
+* m:f - external function
+
 ## Example
 
 ```erlang
